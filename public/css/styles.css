@@ -1,0 +1,270 @@
+@import url(general.css);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--GrisClaro);
+    min-width: 320px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/** movil **/
+
+/*header*/
+
+header{
+    background-color: var(--Amarillo);
+    padding: 10px 0 0;
+    min-height: 220px;
+}
+
+header .logo{
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+header .buscar{
+    font-size: var(--Font-size-p);
+    color: var(--GrisOscuro);
+    background-color: white;
+    display: inline-block;
+    margin: 4px 0 4px 15px;
+    padding: 4px;
+    border: solid 1px var(--GrisOscuro);
+    min-width: 160px;
+    max-width: 50%;
+    height: 25px;
+}
+
+header .lupa{
+    display: inline-block;
+    font-size: var(--Font-size-p);
+    margin: 4px 0;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background-color: white;
+    border: solid 1px var(--GrisOscuro);
+}
+
+header .cuotas{
+    font-size: var(--Font-size-p);
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+}
+
+header .menu-site{
+    display: none;
+}
+
+header .menu-login-navbar{
+    display: none;
+}
+
+header .burger{
+    width: 35px;
+    background-color: var(--Azul);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+}
+
+/*main*/
+
+.banner img{
+    display: none;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+}
+
+.seccion-main{
+    width:90%;
+}
+
+h2{
+    font-size: var(--Font-size-Titulares);
+    padding: 0;
+    margin: 20px 0 5px;
+}
+
+.envio-producto{
+    color: var(--Verde);
+    margin: 4px;
+    border-radius: 50%;
+    border: 1px solid var(--Verde);
+    padding: 5px;
+}
+
+.precio{
+    font-size: var(--Font-size-Precios);
+    margin: 4px;
+}
+
+h4{
+    display: none;
+}
+
+span{
+    font-size: var(--Font-size-Descuentos);
+    margin: 4px;
+    color: var(--Verde)
+}
+
+img{
+    width: 100%;
+}
+
+.producto{
+    width: 100%;
+}
+
+.detalle-producto{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid var(--GrisClaro);
+    border-left: 15px;
+    border-right: 15px;
+    background-color: white;
+
+}
+    
+
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-color: var(--GrisClaro);
+    border: 5px solid var(--GrisClaro);
+}
+
+footer .iconos{
+    font-size: 2em;
+    color: var(--Celeste);
+    padding: 0 10px;
+    margin: 10px;
+}
+
+h3{
+    font-size: var(--Font-size-Descripciones);
+    color: black;
+    padding-top: 2px;
+}
+
+footer .seccion-footer{
+    background-color: white;
+    padding-top: 40px;
+}
+
+footer .container{
+    color: var(--GrisOscuro);
+    background-color: white;
+    font-size: var(--Font-size-p);
+    width: 100%;
+    padding: 0 15%;
+    text-align: center;
+    display: block;
+}
+
+footer .copyright{
+    color: var(--GrisOscuro);
+    background-color: white;
+    font-size: var(--Font-size-p);
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+
+
+/** tablet **/
+@media (min-width:361px){
+
+    /*header*/
+   
+      header .logo{ 
+          width:35%;
+      }
+   
+      header .buscar{
+          width: 25%;
+      }
+   
+      header .menu-site{
+          display: block;
+          font-size: var(--Font-size-p);
+          padding: 8px 15px;
+      }
+   
+      header .menu-login-navbar{
+          display: block;
+          font-size: var(--Font-size-p);
+          padding: 8px 15px;
+          border-bottom: 8px;
+      }
+   
+      header .burger{
+          display: none;
+      }
+     
+   
+    /*main*/
+   
+    .banner img{
+       display: block;
+      }
+   
+      h4{
+          display: block;
+          font-size: var(--Font-size-Descripciones);
+          padding: 10px;
+          margin-bottom: 10px;
+          text-align:justify;
+          background-color: white;
+          border: 0 15px;
+      }
+   
+   .producto{
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
+   }
+   
+      .detalle-producto{
+          margin-bottom: 0;
+          }
+   
+   }
+   
+   
+   
+   /** desktop **/
+   @media (min-width : 769px){
+     /*header*/
+    
+   }
+   
