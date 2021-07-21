@@ -345,5 +345,18 @@ h4{
     width:22%;
 }
 
+
+/*footer*/
+
+.caja-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    padding-top: 10px;
 }
-   
+
+h3{
+    padding-bottom: 5px;
+}
+
+}
